@@ -1,0 +1,50 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+  background-image: url('../kad/tupat.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: 100% 100%;
+	margin-left: auto;
+	margin-right: auto;
+  }
+
+
+
+.isi{
+  display: grid;
+  grid-auto-rows: auto auto auto;
+  grid-template-columns: auto auto auto;
+  grid-gap: 10px;
+  padding: 10px;
+  font-family: "Lucida Console", "Courier New", monospace;
+	font-size: 20px;
+	}
+
+.isi > div{
+  color: black;
+  text-align: center;
+  padding: 10px 0;
+  font-size: 30px;
+  font-weight: bold;
+}	
+
+h2{background-color: greenyellow;}
+
+img{width: 600px;
+	height: 600px;	
+	}
+
+#suprise{
+	display: none;
+	font-size: 30px;
+}
+
+footer {
+  text-align: center;
+  padding: 3px;
+  background-color: green;
+  color: white;
+}
+
